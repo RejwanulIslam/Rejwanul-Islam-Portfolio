@@ -9,7 +9,13 @@
 
 
 /* common */
+.common_width {
+    width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 
+}
 
 #name {
     width: 128px;
@@ -42,7 +48,6 @@
 #banner {
     background-image: url("/assect/Hero-bg.png");
     height: 652px;
-   
     justify-items: center;
 }
 
@@ -50,7 +55,6 @@
     max-width: 140px;
     height: 145px;
     padding: 26px;
-
 }
 
 .bannerTitle {
@@ -80,13 +84,209 @@
     font-weight: 600;
     text-align: center;
     color: rgba(255, 255, 255, 1);
-
-  
- 
 }
-.bannerbtncenter{
+
+.bannerbtncenter {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 32px;
+}
+
+
+/* Development  seation*/
+#development {
+    border-radius: 16px;
+    padding: 80px 97px 80px 97px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 80px;
+    justify-items: center;
+}
+
+.developmentTitle {
+    width: 852px;
+    height: 37px;
+    font-size: 32px;
+    font-weight: 800;
+    color: rgba(13, 19, 33, 1);
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.developmentText {
+    color: rgba(13, 19, 33, 1);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.common_developmentRow {
+    width: 946px;
+
+    height: 336px;
+    display: flex;
+    padding: 48px;
+    gap: 98.83px;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.common-developmentRow-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+
+    font-weight: 700;
+    text-align: left;
+}
+
+.common-developmentRow-image {
+    width: 240px;
+    height: 240px;
+
+
+}
+
+.common-developmentRow-text {
+    color: rgba(13, 19, 33, 1);
+    opacity: 0.7;
+}
+
+.common-developmentRow-box {
+    width: 477px;
+}
+
+.common-developmentRow-btn {
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgba(13, 19, 33, 1);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 1);
+}
+
+.developmentRow-1 {
+    background: linear-gradient(90.00deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 100%);
+    border-style: solid;
+
+    border-color: red;
+    margin-top: 48px;
+}
+
+.developmentRow-2 {
+    background: linear-gradient(270.00deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 100%);
+
+    margin-top: 32px;
+}
+
+.developmentRow-3 {
+    background: linear-gradient(270.00deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 100%);
+    border-style: solid;
+    margin-top: 32px;
+
+}
+
+/* My Inspiration */
+
+.inspiration_text {
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    
+}
+
+.inspiration_title {
+    color: rgba(13, 19, 33, 1);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 90px;
+}
+.inspiration_description {
+   color: rgba(13, 19, 33, 1);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+.inspiration_vedio_box{
+border: 1px solid rgba(13, 19, 33, 0.2);
+padding: 32px;
+width: 1100px;
+height: 614px;
+display: flex;
+flex-direction: column;
+border-radius: 16px;
+justify-content: center;
+ align-items: center;
+}
+
+.inspiration_vedio{
+    width: 1060px;
+height: 550px;
+
+border-radius: 16px;
+justify-items: center;
+
+}
+
+.common_target_box{
+
+width: 364px;
+height: 299px;
+border-radius: 16px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+}
+.common_target_box_padding{
+    width: 284px;
+height: 219px;
+margin: 0 auto;
+margin-top: 40px;
+
+}
+.common_skil_title{
+    margin-top: 24px;
+    font-size: 24px;
+font-weight: 800;
+}
+.common_skil_description{
+    opacity: 0.7;
+    color: rgba(13, 19, 33, 1);
+    font-size: 16px;
+font-weight: 400;
+}
+.common_skil_btn{
+    color: rgba(13, 19, 33, 1);
+
+font-size: 16px;
+font-weight: 700;
+text-align: left;
+text-decoration-line: underline;
+border: none;
+}
+.common_target{
+    display: flex;
+    gap: 24px;
+}
+
+.html_box{
+background: rgba(255, 76, 30, 0.05);
+}
+.css_box{
+background: rgba(0, 76, 232, 0.05);
+}
+.javascript_box{
+background: rgba(255, 223, 0, 0.05);
 }
