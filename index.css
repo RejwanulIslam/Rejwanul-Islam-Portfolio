@@ -110,8 +110,6 @@
     font-weight: 800;
     color: rgba(13, 19, 33, 1);
     text-align: center;
-    border-style: solid;
-    border-color: red;
     margin: 0 auto;
     margin-top: 80px;
     margin-bottom: 40px;
@@ -175,21 +173,15 @@
 
 .developmentRow-1 {
     background: linear-gradient(90.00deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 100%);
-    border-style: solid;
-
-    border-color: red;
-    margin-top: 48px;
 }
 
 .developmentRow-2 {
     background: linear-gradient(270.00deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 100%);
-
-    margin-top: 32px;
+ margin-top: 32px;
 }
 
 .developmentRow-3 {
     background: linear-gradient(270.00deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 100%);
-    border-style: solid;
     margin-top: 32px;
 
 }
@@ -303,11 +295,9 @@
 
 
 /*support seation*/
-.common_support {
+.support_continer  {
     width: 1140px;
     height: 313px;
-    border-style: solid;
-    border-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -319,11 +309,9 @@
     margin-top: 40px;
 }
 
-.sub_continer {
+.sub_support_continer {
     width: 1044px;
     height: 185px;
-    border-style: solid;
-    border-color: rgb(38, 0, 255);
 }
 
 .support_title {
@@ -347,8 +335,6 @@
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-
-
     width: 548px;
     height: 9px;
     padding: 19px 20px 19px 20px;
@@ -384,10 +370,15 @@
     height: 100px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    justify-items: center;
+
     padding: 32px 150px 32px 150px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+    margin-bottom: 50px;
 
 }
 
@@ -396,13 +387,24 @@
 
     font-size: 20px;
     font-weight: 600;
-    
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
 }
-.footer_box{
-width: 1140px;
-height: 36px;
-display: flex;
-justify-content: space-between;
-align-items: center;
+
+.footer_box {
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+ 
+
+}
+
+.midia_icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    border: none;
 }
