@@ -1,4 +1,4 @@
-.body {
+body {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -177,7 +177,7 @@
 
 .developmentRow-2 {
     background: linear-gradient(270.00deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 100%);
- margin-top: 32px;
+    margin-top: 32px;
 }
 
 .developmentRow-3 {
@@ -295,7 +295,7 @@
 
 
 /*support seation*/
-.support_continer  {
+.support_continer {
     width: 1140px;
     height: 313px;
     display: flex;
@@ -389,7 +389,7 @@
     font-weight: 600;
     display: flex;
     flex-direction: column;
-
+    padding-left: 70px;
     justify-content: center;
 }
 
@@ -398,7 +398,7 @@
     height: 36px;
     display: flex;
     justify-content: space-between;
- 
+    padding-right: 70px;
 
 }
 
